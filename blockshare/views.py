@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 from urllib.request import urlopen
 import json
 import sys
-
+import requests
 
 def ethereum_market_price():
 	""" 
