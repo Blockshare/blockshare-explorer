@@ -3,12 +3,8 @@ from django.shortcuts import HttpResponse, render
 from rest_framework.decorators import api_view
 from two1.bitserv.django import payment
 
-from bs4 import BeautifulSoup
-from urllib.request import urlopen
-import json
-import sys, os
-import json
-import requests
+from blockshare.scrape import bitcoin_market_price, ethereum_market_price
+
 
 def index(request):
     parsed_data = []
@@ -37,8 +33,6 @@ def index(request):
         parsed_data.append(btc_data)
     return render(request, '../templates/profile.html', {'data': parsed_data})
 
-
-from blockshare.scrape import bitcoin_market_price, ethereum_market_price
 
 @api_view(['GET']) 
 @payment.required(5000)
