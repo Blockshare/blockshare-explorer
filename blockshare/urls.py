@@ -18,6 +18,7 @@ import blockshare.views
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^$', blockshare.views.index),
     url(r'^bitcoin$', blockshare.views.bitcoin),
     url(r'^ether$', blockshare.views.ether),
 ]
