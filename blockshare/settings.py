@@ -39,18 +39,18 @@ DATABASES['default'] = dj_database_url.config(conn_max_age=600)
 SECRET_KEY = ')il&@pg6=(^p1%1kr0@0p$3^90i9vlwrukxqth&7z#++kbn2pk'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = True
+DEBUG = True
 
-#ALLOWED_HOSTS = []
+ALLOWED_HOSTS = []
 
 # in settings.py
-
+"""
 ALLOWED_HOSTS = [
     'machine-payable.herokuapp.com'
 ]
 
 DEBUG = os.environ.get("DEBUG", "False").lower() in ['true', '1', 't']
-
+"""
 
 # Application definition
 
