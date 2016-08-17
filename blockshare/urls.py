@@ -14,6 +14,8 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
+from django.conf import settings
+from django.conf.urls.static import static
 import blockshare.views
 
 urlpatterns = [
@@ -21,4 +23,4 @@ urlpatterns = [
     url(r'^$', blockshare.views.index),
     url(r'^bitcoin$', blockshare.views.bitcoin),
     url(r'^ether$', blockshare.views.ether),
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
