@@ -45,7 +45,7 @@ $(function(){
         $.getJSON( jsonURL,
         function(result){
             var rate = result.data.amount;
-            $('.bpi').html( '$' + rate);
+            $('.bpi').html( 'Bitcoin = $' + rate);
             document.title = '$' + rate;
         }); 
     }
