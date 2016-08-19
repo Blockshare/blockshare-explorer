@@ -1,3 +1,4 @@
 TO-DO List
 
-clean up styling
+Static files deployed to production
+add address template page for explorer
