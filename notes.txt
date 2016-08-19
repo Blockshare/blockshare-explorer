@@ -2,3 +2,7 @@ TO-DO List
 
 Static files deployed to production
 add address template page for explorer
+add API's template page
+add Machine-Learning-as-a-Service template page
+Brainstorm names for MLaaS tech.O
+
