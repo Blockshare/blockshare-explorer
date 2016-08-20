@@ -3,4 +3,3 @@ __pycache__
 venv/
 *.sqlite3
 .env
-analyze.py
