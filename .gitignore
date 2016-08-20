@@ -3,3 +3,4 @@ __pycache__
 venv/
 *.sqlite3
 .env
+cponeillapps-6cc58e1ef332.json
