@@ -32,6 +32,8 @@ DATABASES = {}
 DATABASES['default'] = dj_database_url.config(conn_max_age=600)
 
 
+GOOGLE_APPLICATION_CREDENTIALS=cponeillapps-6cc58e1ef332.json
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
 
