@@ -147,3 +147,4 @@ def ether(request):
         return HttpResponse(response, status=200)
     except ValueError as e:
         return 'HTTP Status 400 {}'.format(e.args[0]), 400
+
