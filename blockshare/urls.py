@@ -19,8 +19,6 @@ from django.conf.urls.static import static
 import blockshare.views
 import blockshare.analyze
 
-
-
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', blockshare.views.index),
