@@ -4,5 +4,5 @@ Static files deployed to production
 add address template page for explorer
 add API's template page
 add Machine-Learning-as-a-Service template page
-Brainstorm names for MLaaS tech.O
-
+Brainstorm names for MLaaS tech.
+Add link to request402.org
