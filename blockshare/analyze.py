@@ -45,3 +45,4 @@ def machine_learning(request):
         return HttpResponse(response, status=200)
     except ValueError as e:
         return 'HTTP Status {}'.format(e.args[0]), 400
+
