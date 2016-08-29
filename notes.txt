@@ -3,3 +3,4 @@ TO-DO List
 Static files deployed to production
 Add links to other servivces
 Add link to request402.org
+Look into using the <canvas> tag for the background
