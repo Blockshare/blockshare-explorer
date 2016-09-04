@@ -22,7 +22,6 @@ import blockshare.analyze
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', blockshare.views.index),
-    url(r'^bitcoin$', blockshare.views.bitcoin),
-    url(r'^ether$', blockshare.views.ether),
+    url(r'^market-data$', blockshare.views.market),
     url(r'^machine-learning$', blockshare.analyze.machine_learning),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
