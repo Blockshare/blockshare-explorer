@@ -6,6 +6,7 @@ from two1.bitserv.django import payment
 from googleapiclient import discovery
 import httplib2
 from oauth2client.client import GoogleCredentials
+from blockshare.settings import GOOGLE_APPLICATION_CREDENTIALS
 
 import json
 import sys
